@@ -8,10 +8,11 @@ import joblib
 
 # Download NLTK stopwords if not already downloaded
 try:
-    nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    nltk.download('stopwords')
-arabic_stopwords = set(stopwords.words('arabic'))
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords", quiet=True)
+
+arabic_stopwords = set(stopwords.words("arabic"))
 
 # Define the cleaning function (copied from earlier in the notebook)
 def clean_arabic_tweet(text):
