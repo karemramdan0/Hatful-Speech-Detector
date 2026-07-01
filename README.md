@@ -3,7 +3,7 @@ An NLP binary classifier using Logistic Regression to detect negative sentiment,
 
 ## Live Demo
 
-[https://your-streamlit-app.streamlit.app
+[click here to test the model
 ](https://hatful-speech-detector.streamlit.app/)
 ## Features
 
