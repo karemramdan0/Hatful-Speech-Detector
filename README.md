@@ -44,7 +44,7 @@ Prediction
 
 ## Results
 
-Accuracy: 96.3%
+Accuracy: 87%
 
 ## Installation
 
